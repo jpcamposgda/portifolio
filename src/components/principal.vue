@@ -29,6 +29,7 @@
     
     <div class="spacingP"><q-icon name="info" class="colorItem"  style="font-size: 24px" /><span class="skillP">SOBRE</span></div>
     
+    <img src="../assets/jp.png" alt="">
     
     
     <p style="
@@ -144,6 +145,7 @@ ul li {
 .colorItem{
   color: #840AAF;
   padding-bottom: 10px;
+  padding-right: 2px;
 }
 
 .quasarI{
