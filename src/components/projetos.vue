@@ -12,25 +12,32 @@
     </h2>
   </div>
 
-<div class=" card q-pa-md cursor-pointer  "  >
+<div class=" card q-pa-md cursor-pointer   "  >
   <a href="https://hahn-project-ok.vercel.app/">
-  <div class="shadow-5 ">
+  <div >
   <img src="../assets/índice.png" alt=""
   style="
   width: 100% ;
+  
   border-top-left-radius: 10px ;
   border-top-right-radius: 10px ;
   "
   >
   </div>
 
-  <div class="my-card-down" >
+  <div class="my-card-down"
+  style="
+    position: absolute;
+    top: 101%;
+    "
+  >
     <span style="
     font-family:  'Poppins', sans-serif ;
     color: white;
     font-weight: 400px;
     font-size: 24px;
     margin-left: 20px
+    
     ;
     "
     
@@ -50,7 +57,7 @@
 
 <div class=" card q-pa-md cursor-pointer">
   <a href="https://alura-tracker-two-sigma.vercel.app/">
-  <div class="shadow-5 ">
+  <div >
   <img src="../assets/aluraTrack.png" alt=""
   style="
   width: 100% ;
@@ -60,7 +67,12 @@
   >
   </div>
 
-  <div class="my-card-down" >
+  <div class="my-card-down"
+  style="
+    position: absolute;
+    top: 110%;
+    "
+  >
     <span style="
     font-family:  'Poppins', sans-serif ;
     color: white;
@@ -85,7 +97,7 @@
 
 <div class=" card q-pa-md cursor-pointer">
   <a href="https://abc-abc-theta.vercel.app/">
-  <div class="shadow-5 ">
+  <div >
   <img src="../assets/pinia.png" alt=""
   style="
   width: 100% ;
@@ -95,7 +107,12 @@
   >
   </div>
 
-  <div class="my-card-down" >
+  <div class="my-card-down"
+  style="
+    position: absolute;
+    top: 110%;
+    "
+  >
     <span style="
     font-family:  'Poppins', sans-serif ;
     color: white;
@@ -121,7 +138,7 @@
 
 <div class=" card q-pa-md cursor-pointer">
   <a href="https://jpcamposgda.github.io/final-code/">
-  <div class="shadow-5 ">
+  <div >
   <img src="../assets/devFinance.png" alt=""
   style="
   width: 100% ;
@@ -131,7 +148,12 @@
   >
   </div>
 
-  <div class="my-card-down" >
+  <div class="my-card-down"
+    style="
+    position: absolute;
+    top: 80%;
+    "
+  >
     <span style="
     font-family:  'Poppins', sans-serif ;
     color: white;
@@ -159,7 +181,7 @@
 
 <div class=" card q-pa-md cursor-pointer">
   <a href="https://jpcamposgda.github.io/FreeJimmy/">
-  <div class="shadow-5 ">
+  <div >
   <img src="../assets/freejimmy.png" alt=""
   style="
   width: 100% ;
@@ -169,7 +191,12 @@
   >
   </div>
 
-  <div class="my-card-down" >
+  <div class="my-card-down"
+  style="
+    position: absolute;
+    top: 80%;
+    "
+  >
     <span style="
     font-family:  'Poppins', sans-serif ;
     color: white;
@@ -208,16 +235,24 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 200px;
+    position: relative;
+    
+    
+    
     
     
   }
 
   .my-card-down{
-   
-    background:  #121214;
+    
+    background:  rgba(31, 23, 43, 0.87);
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px ;
     padding-bottom: 10px;
+    
+    
+    width: 268px ;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.56);
   }
 
   a{
