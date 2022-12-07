@@ -12,7 +12,7 @@
   </div>
 
   <div class=" text-center">
-  <div class="spacingP"><q-icon name="psychology" class="colorItem"  style="font-size: 24px" /><span CLASS="skillP">HABILIDADES</span></div>
+  <div class="spacingP"><q-icon name="psychology" class="colorItem"  style="font-size: 24px" /><span class="skillP">HABILIDADES</span></div>
     <div class="row listaR ">
       
       <li class="col-2" ><span>JAVASCRIPT</span><img src="../assets/icons8-javascript-50.svg" alt=""><q-linear-progress :value="progressJ" dark  class="progressR" style="color: #FFD600" /></li>
@@ -25,13 +25,22 @@
 
   </div>
 
-  <div class="q-my-md text-center paddingR">
-    <h4>
-      Sobre Mim
-      
-    </h4>
-    <span class="block">About me</span>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  <div class=" text-center paddingR">
+    
+    <div class="spacingP"><q-icon name="info" class="colorItem"  style="font-size: 24px" /><span class="skillP">SOBRE</span></div>
+    
+    
+    
+    <p style="
+      font-family: 'Roboto Mono', 'Roboto;
+      color: white;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      margin: 10px
+    ">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
   </div>
 </template>
     
@@ -80,7 +89,7 @@ export default {
 
 .skillP{
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;;
   font-weight: 400px;
   font-size: 24px;
   
@@ -97,6 +106,7 @@ height: 230px;;
 }
 
 .paddingR{
+  padding-top: 163px;
   padding-bottom: 100px;
 }
 
@@ -145,6 +155,7 @@ ul li {
 
 .progressR{
   margin-left: 18px;
+  margin-top: 10px;
   width: 32px;
 }
 </style>

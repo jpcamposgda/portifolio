@@ -127,12 +127,13 @@ export default {
   line-height: 6px;
 }
 .headerH{
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background: #1F172B;
   color: white;
   text-decoration: none;
   opacity: 87%;
+  padding: 8px;
 
   font-family: 'Poppins', sans-serif;
   
