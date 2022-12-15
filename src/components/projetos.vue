@@ -12,6 +12,51 @@
     </h2>
   </div>
 
+
+  <div class=" card q-pa-md cursor-pointer   "  >
+  <a href="https://magnificent-klepon-051051.netlify.app">
+  <div >
+  <img src="../assets/feedbacker.png" alt="feedbacker"
+  style="
+  width: 100% ;
+  
+  border-top-left-radius: 10px ;
+  border-top-right-radius: 10px ;
+  "
+  >
+  </div>
+
+  <div class="my-card-down"
+  style="
+    position: absolute;
+    top: 80%;
+    "
+  >
+    <span style="
+    font-family:  'Poppins', sans-serif ;
+    color: white;
+    font-weight: 400px;
+    font-size: 24px;
+    margin-left: 20px
+    
+    ;
+    "
+    
+    >FeedBacker</span>
+    <p style="
+    font-family:  'Poppins', sans-serif ;
+    color: rgb(91, 91, 91);
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 0px;
+    
+    ">Aplicação de feedBacks com vue3, TailwindCSS<br/>
+      para entrar basta digitar "jpcamposgda@hotmail.com" e a senha "1234"  
+  </p>
+  </div>
+</a>
+</div>
+
 <div class=" card q-pa-md cursor-pointer   "  >
   <a href="https://hahn-project-ok.vercel.app/">
   <div >
