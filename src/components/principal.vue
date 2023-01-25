@@ -9,8 +9,10 @@
     <span class="corpoR">DESENVOLVEDOR FRONT-END</span>
     
     </div>
-   
-    <q-btn outline rounded class="inputR" label="LINKEDIN" />
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-da-silva-campos-625999232/">
+      <q-btn outline rounded class="inputR" label="LINKEDIN" />
+    </a>
+    
         
       
   </div>
