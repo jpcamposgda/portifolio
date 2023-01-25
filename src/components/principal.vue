@@ -10,7 +10,7 @@
     
     </div>
    
-    <q-btn outline rounded class="inputR" label="BAIXAR CURRICULO" />
+    <q-btn outline rounded class="inputR" label="LINKEDIN" />
         
       
   </div>
