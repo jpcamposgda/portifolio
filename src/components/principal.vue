@@ -1,4 +1,6 @@
 <template>
+
+  
   <div class="q-my-md text-center lt-sm    "
   style="margin-top: 50px"
   >
@@ -26,7 +28,12 @@ style="margin-top: 50px"
     <span class="corpoR block">
       DESENVOLVEDOR FRONT-END
     </span>
-    <q-btn outline rounded class="inputRXL"  style="margin-left: 30px" label="BAIXAR CURRICULO" />
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-da-silva-campos-625999232/">
+      <q-btn outline rounded class="inputRXL"  style="margin-left: 30px" label="LINKEDIN"
+    />
+    
+    </a>  
+    
   </div>
   
     <img src="../assets/Programming-amico.svg" alt="" 
@@ -93,7 +100,7 @@ style="margin-top: 50px"
       line-height: 18px;
       text-align: center;
       margin: 10px
-    ">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+    ">Me chamo João Pedro, programo em Javascript há um ano e meio, já trabalhei com Vuejs em uma</p>
   </div>
 </template>
     
