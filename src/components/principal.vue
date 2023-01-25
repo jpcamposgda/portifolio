@@ -102,7 +102,9 @@ style="margin-top: 50px"
       line-height: 18px;
       text-align: center;
       margin: 10px
-    ">Me chamo João Pedro, programo em Javascript há um ano e meio, já trabalhei com Vuejs em uma</p>
+    ">Me chamo João Pedro, programo em Javascript há um ano e meio, já trabalhei com Vuejs, criei este portifólio para divulgar meus projetos pessoais ou profissionais.
+      Eu programava em VBA, quando decidi migrar para o mercado de Web desenvolvimento, uma área onde existem muitas opoturnidades e a remuneração é ideal.  
+  </p>
   </div>
 </template>
     
