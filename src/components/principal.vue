@@ -260,4 +260,9 @@ margin-top: 10px;
 .margin-lado{
   margin-right: 200px;
 }
+
+a{
+
+  text-decoration: none;
+}
 </style>
