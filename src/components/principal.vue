@@ -55,7 +55,7 @@ style="margin-top: 50px"
       <li style="width: 62px;" ><span>JAVASCRIPT</span><img style="width: 37px; height: 37px;" src="../assets/icons8-javascript-50.svg" alt=""><q-linear-progress :value="progressJ" dark  class="progressR" style="color: #FFD600" /></li>
       <li style="width: 62px;"><span>VUEJS</span><img style="width: 37px; height: 37px;" src="../assets/icons8-vuejs-50.svg" alt=""><q-linear-progress :value="progressV"  dark  class="progressR" style="color: #3EAF7C" /></li>
       <li style="width: 62px;"><span>TYPESCRIPT</span><img style="width: 37px; height: 37px;" src="../assets/icons8-typescript.svg" alt=""><q-linear-progress :value="progressT" dark  class="progressR" style="color: #1976D2" /></li>
-      <li style="width: 62px;"><span>QUASAR</span><img style="width: 37px; height: 37px;" src="../assets/quasar-logo-vertical.svg" class="quasarI" alt=""><q-linear-progress dark  :value="progressQ"  class="progressR" style="color: #00B4FF" /></li>
+      
       <li style="width: 62px;"><span>NESTJS</span><img style="width: 37px; height: 37px;" src="../assets/icons8-nestjs.svg" alt=""><q-linear-progress :value="progressN" dark   class="progressR" style="color: #F50057" /></li>
       <li style="width: 62px;"><span>FIREBASE</span><img style="width: 37px; height: 37px;" src="../assets/icons8-firebase.svg" alt=""><q-linear-progress :value="progressF" dark   class="progressR" style="color: #FFC400" /></li>
     </div>
